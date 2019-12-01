@@ -164,6 +164,6 @@ def player_numbers(team_name)
   numbers = []
   game_hash.each do |team, team_info|
     if team_info[:team_name] == team_name
-      team_info
+      team_info[:players].each do |
   end 
 end 
