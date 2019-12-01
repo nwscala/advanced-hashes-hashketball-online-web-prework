@@ -192,3 +192,6 @@ def player_stats(player_name)
 end 
 
 def big_shoe_rebounds
+  big_shoe = 0 
+  rebounds = 0 
+end 
