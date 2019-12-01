@@ -26,16 +26,16 @@ describe 'hashketball' do
   describe '#num_points_scored' do
 
     it 'knows the number of points scored by each player' do
-      expect(num_points_scored("Jeff Adrien")).to eq(10)
-      expect(num_points_scored("Bismack Biyombo")).to eq(12)
-      expect(num_points_scored("DeSagna Diop")).to eq(24)
-      expect(num_points_scored("Ben Gordon")).to eq(33)
-      expect(num_points_scored("Kemba Walker")).to eq(6)
-      expect(num_points_scored("Alan Anderson")).to eq(22)
-      expect(num_points_scored("Reggie Evans")).to eq(12)
-      expect(num_points_scored("Brook Lopez")).to eq(17)
-      expect(num_points_scored("Mason Plumlee")).to eq(26)
-      expect(num_points_scored("Jason Terry")).to eq(19)
+      expect(points("Jeff Adrien")).to eq(10)
+      expect(points("Bismack Biyombo")).to eq(12)
+      expect(points("DeSagna Diop")).to eq(24)
+      expect(points("Ben Gordon")).to eq(33)
+      expect(points("Kemba Walker")).to eq(6)
+      expect(points("Alan Anderson")).to eq(22)
+      expect(points("Reggie Evans")).to eq(12)
+      expect(points("Brook Lopez")).to eq(17)
+      expect(points("Mason Plumlee")).to eq(26)
+      expect(points("Jason Terry")).to eq(19)
     end
 
   end
