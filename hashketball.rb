@@ -153,3 +153,5 @@ def team_colors(team_search)
     return game_hash[:home][:colors]
   end
 end
+
+def team_names()
