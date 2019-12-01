@@ -1,6 +1,5 @@
 # Write your code here!
 def game_hash
-  hash = 
   {
     :home => 
     {
@@ -149,5 +148,8 @@ end
 
 def team_colors(team_search)
   if team_search == "Brooklyn Nets"
-    return
+    return game_hash[:home][:team_colors]
+  else 
+    return game_hash[:away][:team_colors]
+  end
 end 
