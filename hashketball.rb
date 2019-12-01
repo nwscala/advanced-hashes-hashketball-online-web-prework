@@ -158,4 +158,8 @@ def team_names
   game_hash.map do |team, team_info|
     team_info[:team_name]
   end
+end
+
+def player_numbers(team_name)
+  
 end 
